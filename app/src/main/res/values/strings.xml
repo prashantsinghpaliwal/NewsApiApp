@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Wynk News App</string>
+
+    <string name="home_tab">HOME</string>
+    <string name="search_tab">SEARCH</string>
+    <string name="events_tab">EVENTS</string>
+    <string name="movies_tab">MOVIES</string>
+    <string name="account_tab">YOU</string>
+
+
+    <string name="network_connection_error">Internet connection lost, please retry again</string>
+    <string name="network_default_error">Something wrong happened, please retry again</string>
+    <string name="network_internal_error">Our systems got an error, please retry again</string>
+    <string name="network_server_not_available">Our services are under maintenance, please retry after some time
+    </string>
+    <string name="server_connection_error">Not able to connect, please retry again</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="network_login_again">Please log in again</string>
+    <string name="other_news_label">OTHER HEADLINES</string>
+    <string name="top_news_label">TOP NEWS</string>
+
+    <string name="rs_symbol">\u20B9</string>
+    <string name="popular_events">POPULAR EVENTS</string>
+    <string name="logo_image">Logo Image</string>
+    <string name="connection_error">CONNECTION ERROR</string>
+    <string name="retry">RETRY</string>
+    <string name="page_under_construction">PAGE UNDER CONSTRUCTION</string>
+    <string name="this_feature_is_not_implemented_yet">This feature is not implemented yet</string>
+    <string name="read_whole_article">Read Whole Article</string>
+</resources>

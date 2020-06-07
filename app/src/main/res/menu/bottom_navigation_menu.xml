@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemHome"
+          android:title="@string/home_tab"
+          android:titleCondensed="@string/home_tab"
+          android:icon="@drawable/selector_home_tab"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/itemSearch"
+          android:title="@string/search_tab"
+          android:titleCondensed="@string/search_tab"
+          android:icon="@drawable/selector_search_tab"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/itemAccounts"
+        android:title="@string/account_tab"
+        android:titleCondensed="@string/account_tab"
+        android:icon="@drawable/selector_accounts_tab"
+        app:showAsAction="always"/>
+</menu>

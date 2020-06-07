@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/nunito</item>
+<!--        <item name="android:navigationBarColor">@color/nav_bar_color_bottom</item>-->
+    </style>
+
+    <!-- Bottom Navigation -->
+    <style name="Widget.MaterialComponents.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+<!--    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">-->
+<!--        <item name="android:background">@drawable/btn_bg</item>-->
+<!--    </style>-->
+
+</resources>

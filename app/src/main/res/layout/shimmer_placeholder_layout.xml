@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/shimmer_banner"
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:visibility="visible"
+        android:background="@color/colorShimmer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/shimmer_events_this_week_label"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorShimmer"
+        android:fontFamily="@font/nunito_extrabold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shimmer_banner" />
+
+    <View
+        android:id="@+id/shimmer_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        android:background="@color/colorShimmer"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shimmer_events_this_week_label" />
+
+    <View
+        android:id="@+id/shimmer_featured_events_label"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorShimmer"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shimmer_date_layout" />
+
+    <View
+        android:id="@+id/shimmer_featured_events_list"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false"
+        android:background="@color/colorShimmer"
+        android:paddingBottom="20dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shimmer_featured_events_label" />
+
+
+    <View
+        android:id="@+id/shimmer_featured_events"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false"
+        android:background="@color/colorShimmer"
+        android:paddingBottom="20dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@id/shimmer_featured_events_label"
+        app:layout_constraintStart_toEndOf="@id/shimmer_featured_events_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
